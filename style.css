@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}  
+.main{
+    width: 100%;
+}
+.nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+}
+.nav a{
+    display: inline-block;
+    font-weight: 800;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+.nleft{
+    display: flex;
+    gap: 30px;
+
+}
+.nav .centraltag{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 15px;
+    transform: translate(-50%,-50%);
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 10vw;
+    margin-top: 15vw;
+    width: 100%;   
+}
+.Sharingan{
+    width: 12vw;
+}
+.Sharingan p{
+    font-weight: 800;
+    opacity: .5;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.Sharingan .sharinganwrapper{
+    width: 100%;
+    height: 17vw;
+}
+.sharinganwrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.naruto{
+    position: relative;
+    width: 30vw;
+    min-height: 42vw;
+    
+}
+.naruto .heading{
+    position: absolute;
+    top: -17%;
+    left: -20%;
+    z-index: 9;
+}
+.imgtext{
+    width: fit-content;
+    height: fit-content;
+}
+.naruto p{
+    margin-top: 30px;
+    font-size: 1.3vw;
+    line-height: 1.3;
+    letter-spacing: -.07vw;
+    width: 60%;
+}
+.naruto h1{
+    font-size: 7vw;
+    line-height: 1;
+    letter-spacing: -.4vw;
+    font-weight: 400;
+}
+.naruto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.visit{
+    display: flex;
+    gap: 20px;
+}
+.circlev{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    border: 1px solid #5e5e5e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circlev i{
+    color: #000;
+    
+}
+
+
+.visit h3{
+    color: #5e5e5e;
+    font-weight: 400;
+}
+.motive{
+    margin-top: 7vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+}
+.motive p{
+    font-weight: 500;
+    position: relative;
+    line-height: 1.7;
+    width: 90%;
+    font-size: 1.7vw;
+    text-align: right;
+}
+.motive span{
+    display: inline-block;
+    background-color: black;
+    margin: 0 13px;
+    border-radius: 100px;
+    margin-bottom: -12.5px;
+}
+
+.onespan{
+    width: 80px;
+    height: 50px;
+    background-image: url(img/little_naruto.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.twospan{
+    width: 90px;
+    height: 42px;
+    background-image: url(img/leaf.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.threespan{
+    width: 110px;
+    height: 59px;
+    background-image: url(img/naurto_group_1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.pictures{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8vw;
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 14vw;
+    
+}
+.firstpic{
+    width: 17vw;
+}
+.firstpic .picimg{
+    width: 100%;
+    height: 24vw;
+    margin-bottom: 1vw;
+    
+}
+.firstpic h1, .secpic h1{
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+}
+.firstpic p, .secpic p{
+    opacity: .8;
+    font-size: 1vw;
+    letter-spacing: -.07vw;
+    line-height: 1;
+    margin-top: 10px;
+}
+.picimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.secpic{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 24vw;
+}
+.secpic .picimg{
+    width: 100%;
+    height: 37vw;
+    margin-bottom: 1vw;
+    
+}
+.secpic h1{
+    width: 50%;
+}
+.secpic p{
+    width: 60%;
+    text-align: right;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 8vw;
+}
+.bimg{
+    width: 65%;
+    height: 60vh;
+}
+.bimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.btext{
+    width: 35%;
+    padding: 0 3vw;
+}
+.btext h1{
+    font-size: 2.8vw;
+    font-weight: 400;
+    letter-spacing: -.15vw;
+    line-height: 1;
+}
+.btext p{
+    margin-top: 20px;
+    width: 60%;
+    font-size: 1vw;
+}
+.future{
+    margin-top: 4vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+.future video{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+.ftext{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 9999;
+}
+.ftext button{
+    padding: .8vw 1.7vw;
+    margin-top: 10px;
+    font-size: .7vw;
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: #000;
+    border: 1px solid #c6c6c6;
+    color: #fff;
+    text-transform: capitalize;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+/*#fff  #6f6f6f*/
+
